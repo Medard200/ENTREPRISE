@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav .collapse ul li a{
+    font-size: 17px;
+    text-transform: uppercase;
+    color: black;
+}
+nav .collapse ul li a:hover{
+    background-color: rgb(208, 212, 216);    
+}
+
+
+/* Section 2 */
+.banner{
+    background-color: black;
+}
+.banner .banner-img{
+    background: url(image/357d1dd6-aecd-49f5-9535-350f81f74f06-removebg-preview.png)no-repeat center ;
+}
+.banner .banner-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 600px;
+    color: white;
+}
+
+.banner .banner-overlay h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 57px;
+    font-weight: lighter;
+    
+}
+
+.banner .banner-overlay p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.banner .banner-overlay button{
+    border: 0cap;  
+}
+.banner .banner-overlay button:hover{
+    background-color: rgb(150, 143, 143);  
+}
+
+.about i{
+    font-size: 90px;
+    color: black;
+}
+.work button{
+    border: 0cap;
+    background-color: black;
+}
+.work button:hover{
+    border: 0cap;
+    background-color: #4b4a4a;
+}
+
+.team img{
+    height: 300px;
+    object-fit: cover;
+}
+.team button{
+    border: 0px;
+    background-color: #4b4a4a;
+}
+.team button:hover{
+    background-color: #918f8f;
+}
+
+.service img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.skill .progress{
+    height: 25px;
+    border: 0px;
+    border-radius: 0%;
+}
+.progicone i{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
